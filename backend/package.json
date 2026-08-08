@@ -1,12 +1,15 @@
 {
-  "name": "desplegador-backend",
+  "name": "autodeploy-backend",
   "version": "1.0.0",
+  "description": "Servidor backend para despliegue de aplicaciones",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "@google/genai": "^0.1.1",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "simple-git": "^3.25.0"
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
   }
 }
